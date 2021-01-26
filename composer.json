@@ -1,0 +1,26 @@
+{
+  "name": "vendor_name/php_task",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "vahra",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "rakit/validation": "^1.4",
+    "doctrine/orm": "^2.6",
+    "symfony/yaml": "2.*",
+    "vlucas/phpdotenv": "^5.3",
+    "doctrine/migrations": "^3.0",
+    "ext-json": "*",
+    "guzzlehttp/guzzle": "^7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "app\\": "./app"
+    }
+  }
+}
