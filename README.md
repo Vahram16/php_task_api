@@ -1,4 +1,4 @@
-STEP 1: Install all dependencies
+##STEP 1: Install all dependencies 
 composer install
 STEP 2: Create .env
 Copy the .env.example file and rename it to .env. In this file you have to add your database connection information.
